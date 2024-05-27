@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/heading-has-content */
 import { useEffect } from "react"
 import { useLocation, useNavigate } from "react-router-dom"
 import "./style.css"
