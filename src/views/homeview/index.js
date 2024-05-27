@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom"
 import "./style.css"
 
 function HomeView() {
-//   let api_key = "e4621b68dcd1fa1de4a66cfd0664dc28";
   let api_key = process.env.REACT_APP_API_KEY;
 
   let img_url = "https://image.tmdb.org/t/p/w500";
